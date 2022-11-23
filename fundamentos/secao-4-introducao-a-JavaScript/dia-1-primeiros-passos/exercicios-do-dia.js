@@ -45,3 +45,15 @@ else if (primeiroAngulo + segundoAngulo + terceiroAngulo !== 180 && primeiroAngu
 else {
     console.log("erro")
 }
+
+let peça = "CAVAlo".toLowerCase()
+
+switch(peça) {
+    case "bispo":
+        console.log("diagonal")
+        break;
+    case "cavalo":
+        console.log("movimentos em L")
+        break;
+    default: console.log("peça não encontrada no sistema")
+}
