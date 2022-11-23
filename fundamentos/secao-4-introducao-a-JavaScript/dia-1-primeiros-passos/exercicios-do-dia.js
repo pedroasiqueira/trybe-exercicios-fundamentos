@@ -29,7 +29,7 @@ else if (a === 0) {
     console.log("zero")
 }*/
 
-const primeiroAngulo = 180;
+const primeiroAngulo = 182;
 const segundoAngulo = -1;
 const terceiroAngulo = -1;
 
