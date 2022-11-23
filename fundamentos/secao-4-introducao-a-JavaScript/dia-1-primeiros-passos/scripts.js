@@ -48,3 +48,24 @@ else if (pessoa < aprovado && pessoa > notaMinima) {
 else {
     console.log("Você foi reprovado")
 }
+
+//Operadores Lógicos
+
+const currentHour = 3;
+let message = "";
+if (currentHour >= 22) {
+    message = console.log("Não deveriamos comer nada, é hora de dormir")
+}
+else if (currentHour >= 18 && currentHour < 22) {
+    message = console.log("Rango da noite, vamos jantar :D")
+}
+else if (currentHour >= 14 && currentHour < 18) {
+    message = console.log("Vamos fazer um bolo pro café da tarde?")
+}
+else if (currentHour >= 11 && currentHour < 14) {
+    message = console.log("Hora do almoço!!!")
+}
+else if ( currentHour >= 4 && currentHour < 11) {
+    message = console.log("Hmmm, cheiro de café recém-passado")
+}
+else (console.log("Vai dormir morcego"))
