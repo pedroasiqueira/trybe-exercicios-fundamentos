@@ -12,6 +12,9 @@ pizzas[3] = 'Duo'
 //para adicionar um valor em um array na última posição sem precisar saber quantos valores tem dentro:
 pizzas.push('Calabresa cremosa', 'Camarão Cremoso')
 
+//para adicionar uma valor em um array na primeira posição:
+pizzas.unshift('Brigadeiro')
+
 //para saber o tamanho de um array:
 console.log(pizzas.length)
 
