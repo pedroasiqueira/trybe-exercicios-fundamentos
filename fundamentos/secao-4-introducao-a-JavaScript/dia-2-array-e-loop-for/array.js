@@ -30,5 +30,14 @@ for (let i = 0; i < pizzas.length; i += 1) {
     console.log(pizzas[i])
 }
 
+//para remover algum item do Array:
+//.pop() -- para remover o último
+//.shift() -- para remover o primeiro
+
+pizzas.pop()
+console.log(pizzas)
+pizzas.shift()
+console.log(pizzas)
+
 
 //console.log(pizzas)
