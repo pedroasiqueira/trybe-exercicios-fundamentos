@@ -29,22 +29,6 @@ else if (a === 0) {
     console.log("zero")
 }*/
 
-const primeiroAngulo = 182;
-const segundoAngulo = -1;
-const terceiroAngulo = -1;
-
-if (primeiroAngulo + segundoAngulo + terceiroAngulo === 180 && primeiroAngulo >= 0 && segundoAngulo >= 0 && terceiroAngulo >= 0) {
-    console.log("true")
-}
-else if (primeiroAngulo + segundoAngulo + terceiroAngulo !== 180 && primeiroAngulo >= 0 && segundoAngulo >= 0 && terceiroAngulo >= 0) {
-    console.log("false")
-}
-/*else if (primeiroAngulo <= -1 || segundoAngulo <= -1 || terceiroAngulo <= -1) {
-    console.log("erro")
-}*/
-else {
-    console.log("erro")
-}
 
 let peça = "CAVAlo".toLowerCase()
 
