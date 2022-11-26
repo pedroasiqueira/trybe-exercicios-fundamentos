@@ -65,3 +65,16 @@ else if (nota < 50 && nota === 0) {
 else if (nota < 0 || nota > 100) {
     console.log("erro")
 }
+
+
+const d = 1;
+const e = 1;
+const f = 1;
+
+if (d % 2 === 1 || e % 2 === 1 || f % 2 === 1) {
+    console.log("true")
+} else {
+    console.log(false)
+}
+
+//console.log(e % 2)
