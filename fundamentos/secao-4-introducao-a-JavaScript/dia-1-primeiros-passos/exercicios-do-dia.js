@@ -89,19 +89,3 @@ if ( cost >= 0 && resale >= 0 && saleQuantity >= 0) {
 } else {
     console.log("erro: valores não podem ser negativos")
 }
-
-
-const grossSalary = 10000;
-
-if (grossSalary <= 1556.94) {
-    console.log("Salário descontado o INSS (alíquota de 8%): " + (grossSalary * 0.92))
-}
-else if (grossSalary >= 1556.95 && grossSalary <= 2594.92) {
-    console.log("Salário descontado o INSS (alíquota de 9%) é: " + (grossSalary * 0.91))
-}
-else if (grossSalary >= 2594.93 && grossSalary <= 5189.82) {
-    console.log("Salário descontado o INSS (alíquota de 11%) é: " + (grossSalary * 0.89))
-}
-else if (grossSalary >= 5189.82) {
-    console.log("Salário descontado o INSS (alíquota Máxima de 570,88) é: " + (grossSalary - 570.88))
-}
