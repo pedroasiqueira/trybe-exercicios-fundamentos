@@ -77,4 +77,17 @@ if (d % 2 === 1 || e % 2 === 1 || f % 2 === 1) {
     console.log(false)
 }
 
-//console.log(e % 2)
+const cost = 10;
+const resale = 20;
+let tax = 1.2
+let totaCost = cost * tax
+let saleQuantity = 10;
+let totalProfit = (resale * saleQuantity) - (totaCost * saleQuantity);
+
+if ( cost >= 0 && resale >= 0 && saleQuantity >= 0) {
+    console.log(totalProfit)
+} else {
+    console.log("erro: valores não podem ser negativos")
+}
+
+

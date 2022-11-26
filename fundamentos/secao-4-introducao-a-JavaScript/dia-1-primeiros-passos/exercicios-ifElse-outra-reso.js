@@ -15,7 +15,7 @@ else {
     console.log("Erro: Angulo inválido")
 }
 
-//Outra forma de se fazer o if/else
+//Outra forma de se fazer o if/else do triangulo
 
 const degreeAngleA = 65;
 const degreeAngleB = 100;
@@ -34,3 +34,18 @@ if(allAnglesArePositives){
 } else {
   console.log('Erro: ângulo inválido');
 }
+
+
+//Outra forma de se fazer o if/else da questão das vendas
+
+
+const costOfProduct = 1;
+const saleValue = 3;
+
+if (costOfProduct >= 0 && saleValue >= 0) {
+  const totalCostOfProduct = costOfProduct * 1.2;
+  const totalProfit = (saleValue - totalCostOfProduct) * 1000;
+  console.log(totalProfit);
+} else {
+  console.log("Error, os valores não podem ser negativos");
+};
