@@ -1,4 +1,4 @@
-const primeiroAngulo = 182;
+/*const primeiroAngulo = 182;
 const segundoAngulo = -1;
 const terceiroAngulo = -1;
 
@@ -8,9 +8,9 @@ if (primeiroAngulo + segundoAngulo + terceiroAngulo === 180 && primeiroAngulo >=
 else if (primeiroAngulo + segundoAngulo + terceiroAngulo !== 180 && primeiroAngulo >= 0 && segundoAngulo >= 0 && terceiroAngulo >= 0) {
     console.log("false")
 }
-/*else if (primeiroAngulo <= -1 || segundoAngulo <= -1 || terceiroAngulo <= -1) {
-    console.log("erro")
-}*/
+//else if (primeiroAngulo <= -1 || segundoAngulo <= -1 || terceiroAngulo <= -1) {
+//    console.log("erro")
+//}
 else {
     console.log("Erro: Angulo inválido")
 }
@@ -49,7 +49,7 @@ if (costOfProduct >= 0 && saleValue >= 0) {
 } else {
   console.log("Error, os valores não podem ser negativos");
 };
-
+*/
 
 
 

@@ -46,3 +46,12 @@ else if (grossSalary >= 5189.82) {
         console.log("Salário Liquido descontado INSS e IR: " + salaryLiquidoTotaldeductedIRandINSS.toFixed(2))
     }
 }
+
+
+const n = 8;
+
+let resultado = 100;
+for (let index = 0; index <= n; index += 1) {
+  resultado -= index;
+};
+console.log(resultado);
