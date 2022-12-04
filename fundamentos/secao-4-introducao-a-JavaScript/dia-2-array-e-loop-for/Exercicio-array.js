@@ -27,20 +27,34 @@ console.log(maiorNumero)
 
 
 
+let numerosImpares = 0;
+
 for (let i = 0; i < number.length; i += 1) {
-    if(number[i] % 2 !== 0 ) {
-        console.log(number[i])
+    let checkNumbers = number[i] % 2
+    if (checkNumbers % 2 === 1) {
+        numerosImpares += 1;
     }
 }
 
-let array = [];
-
-for (let i = 1; i <= 25; i += 1) {
-    array.push(i);
+if (numerosImpares === 0) {
+    console.log('nenhum valor ímpar encontrado')
+} else {
+    console.log(numerosImpares)
 }
 
-for (let i = 0; i < array.length; i += 1) {
-    console.log(array[i] / 2)
+
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] % 2 !== 0) {
+    result += 1;
+  }
 }
 
-//console.log(array)
+if (result === 0) {
+  console.log('nenhum valor ímpar encontrado');
+} else {
+  console.log(result);
+}
