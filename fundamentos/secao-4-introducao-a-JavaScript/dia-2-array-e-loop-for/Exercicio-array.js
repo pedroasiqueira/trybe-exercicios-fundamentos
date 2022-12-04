@@ -51,3 +51,15 @@ for(let i = 0; i < number.length; i += 1) {
 }
 
 console.log(menorValor)
+
+const arr = [];
+
+for(i = 1; i <= 25; i += 1) {
+    arr.push(i)
+}
+
+console.log(arr)
+
+for(i = 0; i < arr.length; i += 1) {
+    console.log(arr[i] / 2)
+}
