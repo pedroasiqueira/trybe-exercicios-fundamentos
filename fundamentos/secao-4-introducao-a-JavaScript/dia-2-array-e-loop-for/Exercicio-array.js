@@ -42,19 +42,12 @@ if (numerosImpares === 0) {
     console.log(numerosImpares)
 }
 
+let menorValor = number[0];
 
-
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let result = 0;
-
-for (let index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] % 2 !== 0) {
-    result += 1;
-  }
+for(let i = 0; i < number.length; i += 1) {
+    if(number[i] < menorValor) {
+        menorValor = number[i]
+    }
 }
 
-if (result === 0) {
-  console.log('nenhum valor ímpar encontrado');
-} else {
-  console.log(result);
-}
+console.log(menorValor)
