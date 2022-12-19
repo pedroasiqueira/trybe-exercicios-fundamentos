@@ -23,3 +23,27 @@ h1, h3, .h-green {
     font-weight: 600;
     font-size: 28px;
 }
+
+.picture {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonials {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.button {
+    color: #fff;
+    background-color: #11a36a;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
