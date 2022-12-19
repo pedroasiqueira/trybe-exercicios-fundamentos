@@ -1,0 +1,12 @@
+ body {
+    font-family: monospace, 'Montserrat', sans-serif;
+}
+
+p, li {
+    font-size: 15px;
+    color: #475550;
+}
+
+h1, h3, .h-green {
+    color: #11a36a;
+}
