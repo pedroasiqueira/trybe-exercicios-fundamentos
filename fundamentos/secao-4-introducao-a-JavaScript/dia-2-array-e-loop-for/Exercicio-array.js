@@ -23,7 +23,7 @@ for (let i = 1; i < number.length; i += 1) {
         maiorNumero = number[i]
     }
 }
-console.log(maiorNumero)
+console.log('maior número no array é ' + maiorNumero)
 
 
 
@@ -39,7 +39,7 @@ for (let i = 0; i < number.length; i += 1) {
 if (numerosImpares === 0) {
     console.log('nenhum valor ímpar encontrado')
 } else {
-    console.log(numerosImpares)
+    console.log('números ímpares ' + numerosImpares)
 }
 
 let menorValor = number[0];
