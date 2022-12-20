@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: monospace, 'Montserrat', sans-serif;
 }
@@ -16,6 +21,7 @@ h1, h3, .h-green {
     line-height: 55px;
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 30px;
 }
 
 .section-title {
@@ -49,6 +55,17 @@ h1, h3, .h-green {
     background-image: url('https://casa.abril.com.br/wp-content/uploads/2021/06/Qual-home-office-se-encaixa-no-seu-estilo-de-vida-pinterest-12.jpg?quality=95&strip=info&w=1024');
     background-size: cover;
     height: 600px;
-    background-position: 50% 25%;
+    background-position: 10% 90%;
     padding: 60px 30px 70px 30px;
+}
+
+.header-content {
+    max-width: 50%;
+    margin-left: 5px;
+    background-color: red;
+}
+
+.header-text {
+    max-width: 80%;
+    background-color: blue;
 }
