@@ -54,18 +54,17 @@ h1, h3, .h-green {
 .header {
     background-image: url('https://casa.abril.com.br/wp-content/uploads/2021/06/Qual-home-office-se-encaixa-no-seu-estilo-de-vida-pinterest-12.jpg?quality=95&strip=info&w=1024');
     background-size: cover;
-    height: 600px;
-    background-position: 10% 90%;
-    padding: 60px 30px 70px 30px;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 20% 55%;
+    padding: 30px 30px 70px 30px;
 }
 
 .header-content {
-    max-width: 50%;
+    max-width: 60%;
     margin-left: 5px;
-    background-color: red;
 }
 
 .header-text {
-    max-width: 80%;
-    background-color: blue;
+    max-width: 70%;
 }
