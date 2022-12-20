@@ -68,3 +68,25 @@ h1, h3, .h-green {
 .header-text {
     max-width: 70%;
 }
+
+.student-testmonials {
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+    background-color: green;
+}
+
+.student-text {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    
+}
+
+.student-container {
+    width: 27%;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: red;
+}
