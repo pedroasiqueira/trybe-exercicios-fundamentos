@@ -1,5 +1,19 @@
-let items = ['Big Mac', 'Big Tasty', 'Batata', 'McFlurry', 'Refrigerante', 'Suco'];
+let items = ['Big Mac', 'Big Tasty', 'Batata', 'McFlurry', 'Refrigerante', 'Suco', 'testeo', 'outro teste', 'vlavlavla'];
 let price = [20, 30, 20, 78, 5, 4];
+
+// let itemsMaisValor = [];
+
+// for (let i = 0; i < items.length; i += 1) {
+//      if (price[i] === undefined) {
+//         itemsMaisValor.push(items[i] + " não possui valor ainda")
+//      } else {
+//         itemsMaisValor.push(items[i] + " = " + price[i])
+//      }
+// }
+// console.log(itemsMaisValor);
+
+// Eu que fiz essa resolução a cima hehe
+
 
 let money = 24;
 let cart = [];
