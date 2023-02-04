@@ -20,7 +20,7 @@ const substituaX = (nome) => {
 //   console.log(substituaX('pedro'));
 
 
-
+// MINHA ROSOLUÇÃO:
 // const minhasSkills = (param) => {
 //     const skills = ['HTML', 'CSS', 'JavaScript'];
 //     let concatenacao = `${param}
@@ -32,6 +32,8 @@ const substituaX = (nome) => {
 //   };
 
 
+
+// RESOLUÇÃODA TRYBE:
   const minhasSkills = (param) => {
     const skills = ['HTML', 'CSS', 'JavaScript'];
     let concatenacao = `${param}
