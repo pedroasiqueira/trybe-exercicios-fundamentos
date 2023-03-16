@@ -39,3 +39,30 @@ const allLessons = {
 Object.assign(allLessons.lesson1, lesson1);
 Object.assign(allLessons.lesson2, lesson2);
 Object.assign(allLessons.lesson3, lesson3);
+// console.log(allLessons);
+
+const numberOfStudent = () => {
+  let n1 = allLessons.lesson1.numeroEstudantes;
+  let n2 = allLessons.lesson2.numeroEstudantes;
+  let n3 = allLessons.lesson3.numeroEstudantes;
+
+  return n1 + n2 + n3;
+}
+// console.log(numberOfStudent());
+
+const getValueByNumber = (obj, posicao) => Object.values(obj)[posicao];
+// console.log(getValueByNumber(lesson1, 1));
+
+const verifyPair = (obj, chave, valor) => {
+  let entriesObj = Object.entries(obj);
+  let isEqual = false;
+  for (let index in entriesObj) {
+    let includesChave = entriesObj[index].includes(chave);
+    let includesValor = entriesObj[index].includes(valor);
+    if(includesChave === true && includesValor === true) isEqual = true;
+  }
+
+  return isEqual;
+}
+
+console.log(verifyPair(lesson3, 'turno', 'noite'));

@@ -32,4 +32,4 @@ let carr = {
 
 for(let index in carr){
   console.log(`${index}: ${carr[index]}`);
-}
+};
