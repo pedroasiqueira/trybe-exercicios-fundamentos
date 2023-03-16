@@ -13,6 +13,7 @@ Configurando/Iniciando ambiente de desenvolvimento:
 
 4- instalar biblioteca:
 * npm install nanoid
+* * * npm remove nanoid (para remover)
 
 * PACKAGE-LOCK.JSON é um arquivo que trava todas as versões das depêndencias que temos no nosso projeto para que quando for para produção(máquina de outras pessoas), as verões continuem as mesmas. Não precisa se preocupar em mexer nela
 
@@ -47,3 +48,9 @@ Configurando/Iniciando ambiente de desenvolvimento:
 * * importa o css para o js:
 import './style.css'
 * * * * só pode fazer isso se tiver com o VITE na aplicação
+
+11- Botar a minha aplicação no ar
+* surge.sh - permite publicar sites estáticos
+* * npm install --global surge -- instalar globalmente na minha máquina. Vai ficar na minha máquina sempre já, e não só na pasta do meu projeto.
+* * * ciar um script chamado "build": "vite build"
+* * * * depois do passo anterior, é criado uma pasta dist
