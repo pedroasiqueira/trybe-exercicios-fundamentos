@@ -41,3 +41,9 @@ Configurando/Iniciando ambiente de desenvolvimento:
   "extends" : "@trybe/eslint-config-frontend"
 }
 * * * * pode chamar o lint com o comando npx eslint./src --- O ./SRC é onde está o nosso arquivo .js
+
+10- Caso for criar um .css:
+* cria o style.css dentro da pasta src
+* * importa o css para o js:
+import './style.css'
+* * * * só pode fazer isso se tiver com o VITE na aplicação
