@@ -32,3 +32,9 @@ new Promise((resolve, reject) => {});
 Os parâmetros resolve e reject serão usados para definirmos qual estado a promise terá quando for finalizada.
 * Quando a promise for resolvida, usamos a função RESOLVE
 * Quando a promise for rejeitada, usamos a função REJECT
+
+FETCH (BUSCAR):
+* Método nativo para lidarmos com requisições externas
+* Retorna uma promise, que pode ser resolvida ou rejeitada de acordo com o resultado da requisição
+* * * Node com uma versão anterior a 18 tem que fazer isso:
+https://bobbyhadz.com/blog/javascript-referenceerror-fetch-is-not-defined
