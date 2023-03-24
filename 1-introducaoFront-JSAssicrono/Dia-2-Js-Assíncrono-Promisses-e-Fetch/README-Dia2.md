@@ -38,3 +38,5 @@ FETCH (BUSCAR):
 * Retorna uma promise, que pode ser resolvida ou rejeitada de acordo com o resultado da requisição
 * * * Node com uma versão anterior a 18 tem que fazer isso:
 https://bobbyhadz.com/blog/javascript-referenceerror-fetch-is-not-defined
+* ex: fetch("api")
+    .then((response) => response.json())
