@@ -1,5 +1,1 @@
-# trybe-exercicios
-
-Pasta de exercicios da trybe..
-
-Para dar o 'git add .' eu preciso estar na pasta que o arquivo se encontra se não não rola
+Classe: agrupar funções que façam sentidos estarem juntas
