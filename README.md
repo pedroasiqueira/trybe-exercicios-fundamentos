@@ -14,3 +14,6 @@ class ReactClass extends React.Component {
   }
 }
 --------------------------------------------------------
+Dentro do return(Só vai ter .JSX)
+As funções .JS ficam fora do return
+
