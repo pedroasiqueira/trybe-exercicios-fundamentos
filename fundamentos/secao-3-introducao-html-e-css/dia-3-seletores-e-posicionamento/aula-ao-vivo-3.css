@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace, 'Montserrat', sans-serif;
+}
+
+p, li {
+    font-size: 15px;
+    color: #475550;
+}
+
+h1, h3, .h-green {
+    color: #11a36a;
+}
+
+.hero-title {
+    color: #0a7e51;
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.picture {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonials {
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.button {
+    color: #fff;
+    background-color: #11a36a;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header {
+    background-image: url('https://casa.abril.com.br/wp-content/uploads/2021/06/Qual-home-office-se-encaixa-no-seu-estilo-de-vida-pinterest-12.jpg?quality=95&strip=info&w=1024');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 20% 55%;
+    padding: 30px 30px 70px 30px;
+}
+
+.header-content {
+    max-width: 60%;
+    margin-left: 5px;
+}
+
+.header-text {
+    max-width: 70%;
+}
+
+.student-testmonials {
+    padding: 30px 70px 90px 70px;
+    width: 80%;
+    margin: auto;
+}
+
+.student-text {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    
+}
+
+.student-container {
+    width: 27%;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.workWithMe {
+    padding: 30px 70px;
+    background-color: #e7e7e7;
+}
+
+.skills {
+    overflow: hidden;
+    padding: 30px 70px;
+    background-color: rgb(188, 183, 183);
+}
+
+.skillsText {
+    float: left;
+    max-width: 80%;
+}
+
+.work {
+    float: right;
+    padding-top: 30px;
+}
+
+.button-work {
+    color: #fff;
+    background-color: #11a36a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+}
+
+.skills li {
+    margin-bottom: 23px;
+    list-style-type: square;
+}
+
+.skillsText h3 {
+    margin-bottom: 30px;
+}
