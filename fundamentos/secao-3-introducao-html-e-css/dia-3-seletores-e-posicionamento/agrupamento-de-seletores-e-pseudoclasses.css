@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+ol li:hover {
+    background-color: aquamarine;
+}
+
+ol li:active {
+    font-family: monospace;
+}
+
+li {
+    list-style: none;
+}
